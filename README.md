@@ -2,8 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-#### Used to practice OOP concepts of:
- * ##### Inheritance
+### Used to practice OOP concepts of:
+ * #### Inheritance
 
     ```ts
 
@@ -23,7 +23,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
       }
     }
     ```
- * ##### Composition
+ * #### Composition
 
     ```ts
     //Composition: A Farm has Farmers and Animals
@@ -34,8 +34,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
       animals: Animal[]
     }
     ```
- * ##### Polymorphism
-  * Overriding
+ * #### Polymorphism
+    * ##### Overriding
     ```ts
     export class Spider extends Animal {
       constructor(args: {type: string, name: string, favoriteWord: string}) {
@@ -54,7 +54,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     }
 
     ```
-  * Duck Typing
+    * ##### Duck Typing
     ```ts
     export class Farmer
     implements IFarmer {
@@ -85,7 +85,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
       });
     }
     ```
-  * Overloading (if it was possible)
+    * ##### Overloading (if it was possible)
     ```ts
     //if this wasn't complied into Javascript and was a true statically typed language
     //this could be an example Overloading
