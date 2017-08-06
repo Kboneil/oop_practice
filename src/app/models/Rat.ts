@@ -9,8 +9,8 @@ extends Animal {
     console.log(`${this.name} the ${this.type} is finding food in the garbage can`);
   }
 
-  //if this wasn't complied into javascript and was truly statically typed
-  //this could overload
+  //if this wasn't complied into Javascript and was a true statically typed language
+  //this could be an example Overloading
 
   // public feed(foodNumber: number): void {
   //   console.log(`${this.name} the ${this.type} is eating ${foodNumber} pieces of food`);
