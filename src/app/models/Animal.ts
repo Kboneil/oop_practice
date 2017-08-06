@@ -10,8 +10,7 @@ interface IAnimal {
 }
 
 export abstract class Animal
-implements IAnimal
- {
+implements IAnimal {
   readonly type: string;
   readonly name: string;
 

@@ -2,7 +2,8 @@ import { Animal } from './Animal';
 import { Farm } from './Farm';
 
 //Inheritance: Spider is an Animal
-export class Spider extends Animal {
+export class Spider
+extends Animal {
   private favoriteWord: string;
 
   constructor(args: {type: string, name: string, favoriteWord: string}) {
